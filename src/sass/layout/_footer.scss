@@ -1,0 +1,12 @@
+@use 'abstracts/breakpoints' as b;
+@use 'abstracts/variables' as v;
+
+.attribution {
+	height: 2rem;
+
+	color: hsl(228, 45%, 44%);
+
+	font-size: 11px;
+	text-align: center;
+
+}
