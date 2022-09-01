@@ -1,3 +1,22 @@
 @use 'abstracts/breakpoints' as b;
 @use 'abstracts/variables' as v;
 
+body {
+    background-color: v.$neutral-200;
+}
+
+.bg-primary--300 {
+    background-color: v.$primary-300;
+}
+
+.bg-primary--350 {
+    background-color: v.$primary-350;
+}
+
+.bg-primary--400 {
+    background-color: v.$primary-400;
+}
+
+.bg-primary--900 {
+    background-color: v.$primary-900;
+}
