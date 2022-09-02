@@ -1,7 +1,7 @@
 @use 'abstracts/breakpoints';
 //colors
 // ### Primary
-$primary-300:  hsl(31, 77%, 52%);
+$primary-300: hsl(31, 77%, 52%);
 $primary-350: hsl(31, 55%, 75%);
 $primary-400: hsl(184, 100%, 22%);
 $primary-900: hsl(179, 100%, 13%);
@@ -9,7 +9,7 @@ $primary-900: hsl(179, 100%, 13%);
 // ### Neutral
 
 //Transparent white (paragraphs):
-$neutral-100:  hsla(0, 0%, 100%, 0.75);
+$neutral-100: hsla(0, 0%, 100%, 0.75);
 //Very light gray (background, headings, buttons)
 $neutral-200: hsl(0, 0%, 95%);
 
@@ -27,7 +27,6 @@ $fs-500: 0.9375rem;
 // $fs-850: 3.25rem;
 // $fs-900: 3.5rem;
 
-
 //font-weight
 $fw-semi-bold: 600;
 $fw-bold: 700;
@@ -36,4 +35,3 @@ $fw-bold: 700;
 $font-family-big-shoulders: 'Big Shoulders Display', cursive;
 $font-family-lexend-deca: 'Lexend Deca', sans-serif;
 $font-family-press-start: 'Press Start 2P', cursive;
-
