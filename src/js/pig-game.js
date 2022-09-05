@@ -12,7 +12,7 @@ const btnNewGame = document.getElementById('btn-new-game')
 const btnRollDice = document.getElementById('btn-roll-dice')
 const btnHold = document.getElementById('btn-hold')
 
-let currentScore, activePlayer, scores. playing;
+let currentScore, activePlayer, scores, playing;
 
 //iitialize starting conditions
 const init = function() {
