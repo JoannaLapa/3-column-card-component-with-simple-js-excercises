@@ -1,3 +1,20 @@
 @use 'abstracts/variables' as v;
 @use 'abstracts/breakpoints' as b;
 
+.primary-heading,
+.secondary-heading {
+    font-family: v.$big-shoulder;
+}
+
+.primary-heading {
+    padding-block: 1.125rem;
+    color: v.$primary-900;
+}
+
+.secondary-heading {
+    color: v.$neutral-200;
+}
+
+.paragraph {
+    color: v.$neutral-100;
+}
