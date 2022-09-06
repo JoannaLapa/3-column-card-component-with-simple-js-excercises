@@ -2,33 +2,48 @@
 @use 'abstracts/variables' as v;
 
 body {
-    background-color: v.$neutral-200;
+	background-color: v.$neutral-200;
 }
 
 .bg-primary--300 {
-    background-color: v.$primary-300;
+	background-color: v.$primary-300;
 }
 
 .bg-primary--350 {
-    background-color: v.$primary-350;
+	background-color: v.$primary-350;
 }
 
 .bg-primary--400 {
-    background-color: v.$primary-400;
+	background-color: v.$primary-400;
 }
 
 .bg-primary--900 {
-    background-color: v.$primary-900;
+	background-color: v.$primary-900;
 }
 
 .txt-primary--300 {
-    color: v.$primary-300;
+	color: v.$primary-300;
 }
 
 .txt-primary--400 {
-    color: v.$primary-400;
+	color: v.$primary-400;
 }
 
 .txt-primary--900 {
-    color: v.$primary-900;
+	color: v.$primary-900;
+}
+
+.even-boxes {
+	background-repeat: no-repeat;
+	&[data-includes='luxury-bg'] {
+		background-image: url('../img/icon-luxury.svg');
+	}
+
+	&[data-includes='sedan-bg'] {
+		background-image: url('../img/icon-sedan.svg');
+	}
+
+	&[data-includes='sedan-bg'] {
+		background-image: url('../img/icon-suvs.svg');
+	}
 }
