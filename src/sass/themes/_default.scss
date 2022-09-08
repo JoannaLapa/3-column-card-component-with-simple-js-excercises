@@ -34,16 +34,17 @@ body {
 }
 
 .even-boxes {
+	background-position: top 3rem left 50px ;
 	background-repeat: no-repeat;
 	&[data-includes='luxury-bg'] {
 		background-image: url('../img/icon-luxury.svg');
 	}
 
 	&[data-includes='sedan-bg'] {
-		background-image: url('../img/icon-sedan.svg');
+		background-image: url('../img/icon-sedans.svg');
 	}
 
-	&[data-includes='sedan-bg'] {
+	&[data-includes='suv-bg'] {
 		background-image: url('../img/icon-suvs.svg');
 	}
 }

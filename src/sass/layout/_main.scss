@@ -2,9 +2,25 @@
 @use 'abstracts/breakpoints' as b;
 
 .main__wrapper {
-	padding: 0 1.5625rem 5.5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-items: center;
+
+	padding: 1.875rem 1.5625rem 5.5rem;
 }
 
+.even-boxes {
+display: grid;
+grid-auto-flow: row;
+gap: 1.6875rem;
+
+padding: 2.1875rem 3rem 47px;
+	&__container {
+		border-radius: .625rem;
+		overflow: hidden;
+	}
+}
 .attribution {
 	height: 2rem;
 
