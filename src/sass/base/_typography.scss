@@ -9,8 +9,8 @@
 }
 
 .primary-heading {
-	padding-block: 1.125rem;
-
+	padding-block: clamp(1.6875rem, 1rem + 3.4vw, 60.5px);
+	font-size: clamp(1.3rem, 1rem + 1vw, 3rem);
 	color: v.$primary-900;
 
 	text-align: center;

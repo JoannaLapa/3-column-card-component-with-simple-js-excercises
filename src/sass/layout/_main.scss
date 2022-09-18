@@ -3,22 +3,45 @@
 
 .main__wrapper {
 	display: grid;
-	grid-template-columns: 1fr;
 	align-items: center;
 	justify-items: center;
 
-	padding: 1.875rem 1.5625rem 5.5rem;
+	padding: 0 1.565rem 5.5rem;
+	max-width: clamp(20.3125rem, 20.3125rem + 60vw, 60.625rem);
+}
+
+.even-sections {
+	min-height: clamp(27.5rem, 20rem + 30vw, 31.25rem);
 }
 
 .even-boxes {
-display: grid;
-grid-auto-flow: row;
-gap: 1.6875rem;
+	display: grid;
+	grid-template-rows: 30% 1fr;
+	gap: 1.25rem;
+	align-items: start;
 
-padding: 2.1875rem 3rem 47px;
+	padding: 2.1875rem 3rem 47px;
+	min-height: 100%;
+
+	max-width: 20.3125rem;
 	&__container {
-		border-radius: .625rem;
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		border-radius: 0.625rem;
 		overflow: hidden;
+
+		@include b.respond-to('medium') {
+			flex-direction: row;
+		}
+	}
+	&__description-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 1.5625rem;
+
+		height: 100%;
 	}
 }
 .attribution {
@@ -28,5 +51,5 @@ padding: 2.1875rem 3rem 47px;
 
 	font-size: 11px;
 	text-align: center;
-
 }
+

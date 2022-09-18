@@ -1,2 +1,7 @@
 @use 'abstracts/breakpoints' as b;
 
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
