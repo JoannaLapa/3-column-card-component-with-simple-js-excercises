@@ -1,0 +1,65 @@
+@use 'abstracts/variables' as v;
+
+.wrapper {
+	display: grid;
+
+	margin: clamp(1rem, 1rem + 5vw, 5rem) auto;
+	padding: clamp(0.01rem, 0.01rem + 4vw, 2rem);
+	max-width: clamp(18.75rem, 13rem + 30vw, 35.625rem);
+
+	border-radius:  1.875rem;
+	background-color: v.$primary-300;
+}
+
+.guess-number {
+	&__header {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+
+		width: 100%;
+
+		&-buttons {
+			display: flex;
+			justify-content: space-between;
+
+			width: 100%;
+		}
+
+		&-heading {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+	&__input {
+		height: 90%;
+
+		background-color: transparent;
+		border: none;
+
+		text-align: center;
+		color: v.$neutral-200;
+
+		outline-color: v.$primary-300;
+	
+		&-box {
+			border: 1px solid v.$neutral-200;
+			border-radius:  1.875rem;
+		}
+	}
+}
+
+.correct-number__box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	min-height: 6.25rem;
+	width: 100%;
+
+	border: 2px solid v.$neutral-200;
+	border-radius: 0.625rem;
+}
