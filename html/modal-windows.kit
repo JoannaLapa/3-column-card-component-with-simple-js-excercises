@@ -9,17 +9,21 @@
     <link rel="stylesheet" href="dist/css/main.min.css">
 </head>
 
-<body>
-    <header>
-        <a class="btn" href="index.html">Back to the main page</a>
-        <button class="show-modal">Show modal 1</button>
-        <button class="show-modal">Show modal 2</button>
-        <button class="show-modal">Show modal 3</button>
+<body class="bg-primary--400">
+    <header class="modal__header-wraper">
+        <div class="home-btn__box">
+            <a class="btn active-states-primary--400 txt-primary--400" href="index.html">Home</a>
+        </div>
+       <div class="modal-btn__box">
+        <button class="show-modal btn active-states-primary--400 txt-primary--400">Modal 1</button>
+        <button class="show-modal btn active-states-primary--400 txt-primary--400">Modal 2</button>
+        <button class="show-modal btn active-states-primary--400 txt-primary--400">Modal 3</button>
+    </div>
     </header>
     <main>
         <div class="modal hidden" id="modal">
             <button class="close-modal" id="close-modal">&times;</button>
-            <h1 class="primary-heading">I'm a modal window</h1>
+            <h1 class="primary-heading txt-neutral--200">I'm a modal window</h1>
             <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod eos, dolores itaque, deleniti nemo qui est
                 repellendus expedita, aliquid explicabo unde eveniet atque? Atque soluta similique ex assumenda nostrum
                 possimus?</p>

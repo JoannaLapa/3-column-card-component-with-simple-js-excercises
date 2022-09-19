@@ -10,32 +10,36 @@
 </head>
 
 <body class="bg-primary--300 grid-center" id="guess-number-body">
-    <header class="guess-number__header">
-        <div class="guess-number__header-buttons">
-            <a class="btn txt-primary--300 active-states-primary--300 " href="index.html">Home</a>
-            <button class="btn txt-primary--300 active-states-primary--300" id="again-btn">Let's start again!</button>
-        </div>
-        <div class="guess-number__header-heading">
-            <h1 class="primary-heading txt-neutral--200">Guess My Number!</h1>
-            <p class="paragraph">(between 1 and 20)</p>
-        </div>
-    </header>
-    <main class="align-self--start flex">
-        <section class="flex">
-            <div class="correct-number__box">
-                <p class="correct-number txt-neutral--200" id="correct-number">?</p>
+    <div class="wrapper">
+        <header class="guess-number__header">
+            <div class="guess-number__header-buttons">
+                <a class="btn txt-primary--300 active-states-primary--300 " href="index.html">Home</a>
+                <button class="btn txt-primary--300 active-states-primary--300" id="again-btn">Let's start
+                    again!</button>
             </div>
-            <div class="guess-number__input-box">
-                <input type="number" class="guess-number__input" id="guess-input"></input>
-                <button class="btn txt-primary--300 active-states-primary--300 " id="check-btn" data-type="check">Check!</button>
+            <div class="guess-number__header-heading">
+                <h1 class="primary-heading txt-neutral--200">Guess My Number!</h1>
+                <p class="paragraph">(between 1 and 20)</p>
             </div>
-        </section>
-        <section>
-            <p class="paragraph" id="message">Start guessing...</p>
-            <p class="paragraph">Score: <span id="score">20</span></p>
-            <p class="paragraph">🥇 Highscore: <span id="highscore">0</span></p>
-        </section>
-    </main>
+        </header>
+        <main class="align-self--start flex">
+            <section class="flex">
+                <div class="correct-number__box">
+                    <p class="correct-number txt-neutral--200" id="correct-number">?</p>
+                </div>
+                <div class="guess-number__input-box">
+                    <input type="number" class="guess-number__input" id="guess-input"></input>
+                    <button class="btn txt-primary--300 active-states-primary--300 " id="check-btn"
+                        data-type="check">Check!</button>
+                </div>
+            </section>
+            <section>
+                <p class="paragraph" id="message">Start guessing...</p>
+                <p class="paragraph">Score: <span id="score">20</span></p>
+                <p class="paragraph">🥇 Highscore: <span id="highscore">0</span></p>
+            </section>
+        </main>
+    </div>
     <script src="dist/js/guess-number.min.js"></script>
 </body>
 
