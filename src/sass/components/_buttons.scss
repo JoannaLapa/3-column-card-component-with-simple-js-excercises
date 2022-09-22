@@ -1,8 +1,8 @@
 @use 'abstracts/variables' as v;
 
 .btn {
-	margin-block: .1875rem 0;
-	padding: 0.8125rem clamp(10px, 10px + 3vw, 0.9375rem);
+	margin-block: 0.1875rem 0;
+	padding: 0.8125rem clamp(0.625rem, 0.625rem + 3vw, 0.9375rem);
 	max-width: 9.0625rem;
 
 	border-radius: 1.875rem;
@@ -12,19 +12,24 @@
 	text-decoration: none;
 	font-family: v.$lexend-deca;
 	text-align: center;
-	font-size: clamp(10px, 10px + 3vw, 15px);
+	font-size: clamp(0.625rem, 0.625rem + 3vw, 0.9375rem);
 
 	cursor: pointer;
 	opacity: 0.85;
 	transition: border color, 0.3s;
-
-	&:hover,
-	&:focus {
-		border: 0.125rem solid v.$neutral-100;
-		color: v.$neutral-100;
-	}
 }
 
-.btn[data-type="check"] {
-	box-shadow: 0 -0.0625rem 3px 3px v.$neutral-200;
+.btn:hover,
+.player--active {
+	border: 0.125rem solid v.$neutral-100;
+	color: v.$neutral-100;
+}
+
+.btn[data-style='shadow'] {
+	box-shadow: 0 -0.0625rem 0.1875rem 0.1875rem v.$neutral-200;
+}
+
+.btn[data-type='small'] {
+	padding: clamp(0.5rem, 0.01rem + 2vw, 0.8125rem) clamp(0.5rem, 0.01rem + 2vw, 0.9375rem);
+	font-size: clamp(0.5rem, 0.05rem + 3vw, 0.9375rem);
 }

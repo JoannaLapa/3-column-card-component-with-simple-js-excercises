@@ -8,35 +8,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="dist/css/main.min.css">
 </head>
-<header>
-    <a class="btn" href="index.html">Home</a>
-    <h1 class="primary-heading">PIG GAME</h1>
-    <button class="btn" id="btn-new-game">NEW GAME</button>
-    <button class="btn" id="btn-roll-dice">ROLL DICE</button>
-    <button class="btn" id="btn-hold">HOLD</button>
-</header>
-<main>
-    <section class="player player--0 player--active">
-<h2 class="name secondary-heading" id="name--0">Player 1</h2>
-<p class="score paragraph" id="score--0">0</p>
-<div class="current">
-    <p class="current-label paragraph">Current</p>
-    <p class="current-score paragraph" id="current--0">0</p>
-</div>
-    </section>
-<section class="dice">
-    <img src="dist/img/dice-5.png" alt="Playing dice" class="dice__img">
-</section>
-    <section class="player player--1">
-        <h2 class="name secondary-heading" id="name--1">Player 2</h2>
-<p class="score paragraph" id="score--1">0</p>
-<div class="current">
-    <p class="current-label paragraph">Current</p>
-    <p class="current-score paragraph" id="current--1">0</p>
-</div>
-    </section>
-</main>
+
 <body>
+    <div class="wrapper pig-game__wrapper">
+        <header>
+            <a class="btn txt-primary--900 active-states-primary--900 margin-top--1" href="index.html" data-type="small">Home</a>
+            <h1 class="primary-heading txt-neutral--200">PIG GAME</h1>
+            <div class="modal-btn__box">
+                <button class="btn primary--900 active-states-primary--900" id="btn-new-game" data-type="small">NEW GAME</button>
+                <button class="btn primary--900 active-states-primary--900" id="btn-hold" data-type="small">HOLD</button>
+                <button class="btn primary--900 active-states-primary--900" id="btn-roll-dice" data-type="small">ROLL DICE</button>
+            </div>
+        </header>
+        <main>
+            <div class="even-boxes__container center-items">
+                <section class="player player--0 player--active">
+                    <h2 class="name secondary-heading txt-neutral--200 padding-bottom--1" id="name--0">Player 1</h2>
+                    <p class="score paragraph" id="score--0">0</p>
+                    <div class="current">
+                        <p class="current-label paragraph">Current</p>
+                        <p class="current-score paragraph" id="current--0">0</p>
+                    </div>
+                </section>
+                <section class="dice">
+                    <img src="dist/img/dice-5.png" alt="Playing dice" class="dice__img">
+                </section>
+                <section class="player player--1">
+                    <h2 class="name secondary-heading txt-neutral--200 padding-bottom--1" id="name--1">Player 2</h2>
+                    <p class="score paragraph" id="score--1">0</p>
+                    <div class="current">
+                        <p class="current-label paragraph">Current</p>
+                        <p class="current-score paragraph" id="current--1">0</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
     <script src="dist/js/pig-game.min.js"></script>
 </body>
 

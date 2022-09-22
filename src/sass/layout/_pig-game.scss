@@ -1,11 +1,31 @@
 @use 'abstracts/breakpoints' as b;
 @use 'abstracts/variables' as v;
 
+.pig-game__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 
-.dice__img{
-    display: none;
+	max-width: clamp(19.375rem, 2rem + 70vw, 68.75rem);
 
-    &[data-visible = 'visible'] {
-        display: block;
-    }
+	background-color: v.$primary-900;
 }
+
+.dice {
+	&__img {
+		display: none;
+
+		&[data-visible='visible'] {
+			display: block;
+			border-radius: 1.875rem;
+			width: clamp(3rem, 3rem + 20vw, 8.75rem);
+		}
+	}
+}
+
+.player--active {
+    padding: 1rem;
+
+    border-radius: 1.875rem;
+}
+

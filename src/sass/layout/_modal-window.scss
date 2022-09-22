@@ -6,13 +6,13 @@
 	gap: 2rem;
 	align-items: start;
 
-    padding: clamp(2rem, 1rem + 8vw, 6rem);
+	padding: clamp(2rem, 1rem + 8vw, 6rem);
 }
 
 .modal-btn__box {
-    display: flex;
-    justify-content: center;
-    gap: clamp(0.01rem, 0.01rem + 3vw, 3rem)
+	display: flex;
+	justify-content: center;
+	gap: clamp(0.01rem, 0.01rem + 3vw, 3rem);
 }
 .close-modal {
 	position: absolute;

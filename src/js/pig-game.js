@@ -25,6 +25,8 @@ const init = function() {
 	score1.textContent = 0
 	currentScore0.textContent = 0
 	currentScore1.textContent = 0
+	document.querySelector('h1').textContent = 'PIG GAME'
+	document.querySelector('.pig-game__wrapper').classList.toggle('bg-primary--900')
 	
 	player0.classList.add('player--active')
 	player1.classList.remove('player--active')
@@ -41,6 +43,8 @@ const switchPlayer = function () {
 	player1.classList.toggle('player--active')
 	diceImg.setAttribute('data-visible', 'visible')
 }
+
+init()
 
 //Rolling dice functionality
 //1. Generating a random dice nr
@@ -74,10 +78,11 @@ btnHold.addEventListener('click', function () {
 		if (scores[activePlayer] <= 100) {
 			switchPlayer()
 		} else {
-			document.querySelector('h1').textContent = `Player ${activePlayer} wins!`
+			document.querySelector('h1').textContent = `Player ${activePlayer + 1} wins!`
 			playing = false
 			diceImg.removeAttribute('data-visible')
 			document.getElementById(`score--${activePlayer}`).classList.add('player--winner')
+			document.querySelector('.pig-game__wrapper').classList.toggle('bg-primary--500')
 		}
 	}
 })

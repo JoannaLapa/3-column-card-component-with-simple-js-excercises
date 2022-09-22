@@ -17,6 +17,10 @@ body {
 	background-color: v.$primary-400;
 }
 
+.bg-primary--500 {
+	background-color: v.$primary-500;
+}
+
 .bg-primary--900 {
 	background-color: v.$primary-900;
 }
@@ -38,8 +42,9 @@ body {
 }
 
 .even-boxes {
-	background-position: top 3rem left 50px ;
+	background-position: top 3rem left 50px;
 	background-repeat: no-repeat;
+
 	&[data-includes='luxury-bg'] {
 		background-image: url('../img/icon-luxury.svg');
 	}
@@ -55,24 +60,24 @@ body {
 
 .active-states-primary--300 {
 	transition: background-color, 0.3s;
-	&:hover,
-	&:focus {
+
+	&:hover {
 		background-color: v.$primary-300;
 	}
 }
 
 .active-states-primary--400 {
 	transition: background-color, 0.3s;
-	&:hover,
-	&:focus {
+
+	&:hover {
 		background-color: v.$primary-400;
 	}
 }
 
 .active-states-primary--900 {
 	transition: background-color, 0.3s;
-	&:hover,
-	&:focus {
+
+	&:hover {
 		background-color: v.$primary-900;
 	}
 }
