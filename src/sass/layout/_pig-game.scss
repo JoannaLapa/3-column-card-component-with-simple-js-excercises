@@ -6,7 +6,7 @@
 	grid-template-columns: clamp(6.25rem, 2rem + 70vw, 37.5rem);
 	gap: 1rem;
 
-	min-height: clamp(300px, 100px + 30vw, 600px);
+	min-height: clamp(300px, 300px + 30vw, 500px);
 	
 	background-color: v.$primary-900;
 }
