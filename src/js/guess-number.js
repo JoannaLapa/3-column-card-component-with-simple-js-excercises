@@ -20,8 +20,8 @@ document.querySelector('#check-btn').addEventListener('click', function () {
 	} else if (inputNumber === secretNumber) {
 		displayMessage('Correct!')
 		document.querySelector('#correct-number').textContent = secretNumber
-		document.querySelector('#guess-number-body').classList.add('bg-primary--350')
-		document.querySelector('#guess-number-body').classList.remove('bg-primary--300')
+		document.querySelector('#guess-number__wrapper').classList.add('bg-primary--350')
+		document.querySelector('#guess-number__wrapper').classList.remove('bg-primary--300')
 		if (score > highscore) {
 			highscore = score
 			document.querySelector('#highscore').textContent = score
@@ -42,8 +42,8 @@ document.querySelector('#check-btn').addEventListener('click', function () {
 document.querySelector('#again-btn').addEventListener('click', function () {
 	score = 20
 	secretNumber = Math.trunc(Math.random() * 20) + 1
-	document.querySelector('#guess-number-body').classList.add('bg-primary--300')
-	document.querySelector('#guess-number-body').classList.remove('bg-primary--350')
+	document.querySelector('#guess-number__wrapper').classList.remove('bg-primary--350')
+	document.querySelector('#guess-number__wrapper').classList.add('bg-primary--300')
 	document.querySelector('#correct-number').textContent = '?'
 	displayMessage('Guess the number')
 	document.querySelector('#guess-input').value = ''
