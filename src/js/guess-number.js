@@ -1,6 +1,5 @@
 'use strict'
 
-//////GUESS THE NUMBER/////////////////////////////////////////////////
 let score = 20
 let secretNumber = Math.trunc(Math.random() * 20) + 1
 let highscore = 0
@@ -9,12 +8,15 @@ const displayMessage = function (message) {
 	document.querySelector('#message').textContent = message
 }
 
+//ADDEVENTLISTENERS/////////////////////////////////////////////////
+
+//CLICKING ON THE CHECK BUTTON
 document.querySelector('#check-btn').addEventListener('click', function () {
 	const inputNumber = Number(document.querySelector('#guess-input').value)
-	//when the uer didn't put any number
+	//WHEN THE USER DIDN'T PUT ANY NUMBER
 	if (!inputNumber) {
 		displayMessage('🤷‍♀️ No number')
-		//when the uer put a correct number
+		//WHEN THE USER PUT THE CORRECT NUMBER
 	} else if (inputNumber === secretNumber) {
 		displayMessage('Correct!')
 		document.querySelector('#correct-number').textContent = secretNumber
@@ -24,7 +26,7 @@ document.querySelector('#check-btn').addEventListener('click', function () {
 			highscore = score
 			document.querySelector('#highscore').textContent = score
 		}
-		//when the user put the wrong number
+		//WHEN THE USER PUT THE WRONG NUMBER
 	} else if (inputNumber !== secretNumber) {
 		if (score > 1) {
 			displayMessage(inputNumber > secretNumber ? 'To high!' : 'To low!')
@@ -36,6 +38,7 @@ document.querySelector('#check-btn').addEventListener('click', function () {
 	document.querySelector('#score').textContent = score
 })
 
+//CLICKING ON THE AGAIN BUTTON
 document.querySelector('#again-btn').addEventListener('click', function () {
 	score = 20
 	secretNumber = Math.trunc(Math.random() * 20) + 1
