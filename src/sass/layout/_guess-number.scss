@@ -2,7 +2,7 @@
 
 .guess-number {
 	&__wrapper {
-		max-width: clamp(18.75rem, 13rem + 30vw, 35.625rem);
+		grid-template-columns: clamp(10rem, 8em + 40vw, 37.5rem);
 	}
 
 	&__header {
