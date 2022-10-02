@@ -49,7 +49,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL:](https://github.com/JoannaLapa/3-column-card-component-with-simple-js-excercises)
-- [Live Site URL:]( https://joannalapa.github.io/3-column-card-component-with-simple-js-excercises/)
+- [Live Site URL:](https://joannalapa.github.io/3-column-card-component-with-simple-js-excercises/)
 
 ## My process
 
