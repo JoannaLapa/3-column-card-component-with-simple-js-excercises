@@ -14,9 +14,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,85 +24,54 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+- Guess number: 
+* see the communicate if the given number between 1 and 20 is equal the random number given by the game 
+* see how many attemps are still available if the given number is wrong 
+* reset the game
 
-![](./screenshot.jpg)
+- Modal window:
+* after clicking the button see the modal window
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+- Pig game:
+* see the actual score of both players
+* see the number of dice after clicking on roll dice
+* when the dice number is equal 1 the game should be switched to the second player
+* when the player aim 100 points, he wins 
+* after clicking on new game button the game should be reset
+### Screenshots
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
+![Main page mobile](./screenshots/main-page-mobile_screenshot.png)
+![Main page desktop](./screenshots/main-page-desktop_screenshot.png)
+![Guess My Number mobile](./screenshots/guess-my-number-mobile_screenshot.png)
+![Guess My Number mobile](./screenshots/guess-number-desktop_screenshot.png)
+![Pig Game mobile](./screenshots/pig-game-mobile_screenshot.png)
+![Pig Game desktop](./screenshots/pig-game-desktop_screenshot.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL:](https://github.com/JoannaLapa/3-column-card-component-with-simple-js-excercises)
+- [Live Site URL:]( https://joannalapa.github.io/3-column-card-component-with-simple-js-excercises/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
+- Gulp
+- SCSS
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+In this project I priced clamp() function to avoid media queries corrections. I prepared 3 simple JS functionalities continiuing complete JavaScript course with Joans Schmedtmann. I adapted them to the design prapared by frontendmentor stuff.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+As I still learn JavaScript this is my aim on future project. As I would feel very comfortable with JS I plan to learn React or Vue framework.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Jonas Schmedtmann course](https://www.udemy.com/share/101Wfe3@bVoG0t5AUjzOgUGl3d6m8sieo2oiiLeO7FV1s-hJAGXS6rGHEW9yLAtpUON-joVoXg==/) - I continue this complex JS course 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@JoannaLapa](https://www.frontendmentor.io/profile/JoannaLapa)
+- Github - [@JoannaLapa] - (https://github.com/JoannaLapa)
