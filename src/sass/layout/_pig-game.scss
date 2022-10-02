@@ -1,13 +1,13 @@
 @use 'abstracts/breakpoints' as b;
 @use 'abstracts/variables' as v;
 
+
 .pig-game__wrapper {
-	display: flex;
-	flex-direction: column;
+	grid-template-columns: clamp(6.25rem, 2rem + 70vw, 37.5rem);
 	gap: 1rem;
 
-	max-width: clamp(19.375rem, 2rem + 70vw, 68.75rem);
-
+	min-height: clamp(300px, 100px + 30vw, 600px);
+	
 	background-color: v.$primary-900;
 }
 
