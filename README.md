@@ -1,7 +1,7 @@
 ## Links
 
-- [Solution URL:](https://github.com/JoannaLapa/3-column-card-component-with-simple-js-excercises)
-- [Live Site URL:](https://joannalapa.github.io/3-column-card-component-with-simple-js-excercises/)
+- [Click here to see the solution repository](https://github.com/JoannaLapa/3-column-card-component-with-simple-js-excercises)
+- [Click here to see the solution Live Site](https://joannalapa.github.io/3-column-card-component-with-simple-js-excercises/)
 
 # Frontend Mentor - 3-column preview card component solution
 
