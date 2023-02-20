@@ -1,3 +1,8 @@
+## Links
+
+- [Solution URL:](https://github.com/JoannaLapa/3-column-card-component-with-simple-js-excercises)
+- [Live Site URL:](https://joannalapa.github.io/3-column-card-component-with-simple-js-excercises/)
+
 # Frontend Mentor - 3-column preview card component solution
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -7,7 +12,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -46,10 +50,6 @@ Users should be able to:
 ![Guess My Number mobile](./screenshots/guess-number-desktop_screenshot.png)
 ![Pig Game mobile](./screenshots/pig-game-mobile_screenshot.png)
 ![Pig Game desktop](./screenshots/pig-game-desktop_screenshot.png)
-### Links
-
-- [Solution URL:](https://github.com/JoannaLapa/3-column-card-component-with-simple-js-excercises)
-- [Live Site URL:](https://joannalapa.github.io/3-column-card-component-with-simple-js-excercises/)
 
 ## My process
 
